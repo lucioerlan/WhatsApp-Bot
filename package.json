@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-good-morning",
+  "author": "Erlan Lucio",
+  "githubIssues": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^24.9.0",
+    "jest-puppeteer": "^4.4.0",
+    "nodemon": "^1.19.4"
+  }
+}
