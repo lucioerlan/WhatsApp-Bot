@@ -1,81 +1,116 @@
 
+<!-- PROJECT SHIELDS -->
 [![PRETTIER](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://gitter.im/jlongster/prettie)
 [![LICENSE](https://img.shields.io/github/license/arshadkazmi42/awesome-github-init.svg)](https://github.com/arshadkazmi42/awesome-github-init/LICENSE)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/erlanlucio/)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flucioerlan%2FWhatsApp-Bot&count_bg=%23E71A18&title_bg=%23555555&icon=dependabot.svg&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
+<!-- PROJECT SHIELDS -->
 
-<p align="center">🎾 Automatic Whatsapp Bot Good morning
-</p>
 
+
+<!-- PROJECT -->
 <p align="center">
-
+  <h3 align="center"> 
+   WhatsApp Bot  ⛅ 
+  </h3> 
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/67064886/115274946-94574880-a117-11eb-8e8c-bdc36879241d.gif" alt="Logo" >
+    <br />
+    <br />
+    <a href="https://github.com/lucioerlan/WhatsApp-Bot/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/lucioerlan/WhatsApp-Bot/issues">Request Feature</a>
+  </p>
 </p>
+<!-- PROJECT -->
 
-![gif-familia](https://user-images.githubusercontent.com/47280551/79169776-afd09a80-7dc3-11ea-88d2-dc736592e58f.gif)
 
-## About
 
-This service is separated into 2 modules.
+<!-- ABOUT THE PROJECT -->
+## 🤔 About The Project
 
-The first module, downloads all images
-[Pinterest](https://br.pinterest.com/raimunda5181/bom-dia)
-related to Good Morning Family, every 3 months.
+Endless images of good morning in a group of whatsapp!
 
-The second module, takes the downloaded images and sends only
-1 of them, every day at 7 am from Monday to Friday in the group
-of my family.
+<br /> 
+<!-- ABOUT THE PROJECT -->
 
-This service saves the session, so you don't have to authenticate every time.
 
-<br>
 
-## Installation
+<!-- INSTALLATION -->
+## 🔨 Installation
 
-```sh
+You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app.
+
+```bash
+git clone https://github.com/lucioerlan/WhatsApp-Bot.git
+
+$ cd WhatsApp-Bot
 $ npm install
+```
+
+<br />
+<!-- INSTALLATION -->
+
+
+
+<!-- SETUP -->
+## 🔥 Setup
+
+```
+$ cp .env-examples .env 
 
 ```
 
-## Startup
+<br /> 
+<!-- SETUP -->
 
-```sh
-$ npm start
 
+<!-- RUNNING TESTS -->
+## 🥇 Tests
+```bash
+$ npm test 
 ```
 
-<br>
+<br />
+<!-- RUNNING TESTS -->
 
-## Running pm2
 
-### InstallationPM2
 
-```sh
-$ npm install -g pm2
-
-```
-
-### Startup Pm2
-
-```sh
-$ pm2 start pm2.config.js
+<!-- RUNNING -->
+## 🚀 Running
 
 ```
+$ npm start 
+```
 
-<br>
+<br />
+<!-- RUNNING -->
 
-### 📦 Main Libraries
 
-| [`node-cron`](https://www.npmjs.com/package/node-cron) | The node-cron module is tiny task scheduler in pure JavaScript for node.js based on GNU crontab. This module allows you to schedule task in node.js using full crontab syntax.
 
-| [`puppeteer`](https://www.npmjs.com/package/puppeteer) | Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.
+<!-- LICENSE -->
+## 🔓 License
 
-<br>
+This project lives under MIT License. See LICENSE for more details. © - [Erlan Lucio](https://www.linkedin.com/in/erlanlucio/)
 
-## 🚀 Technology
+<br />
+<!-- LICENSE -->
 
-![Node JS](https://user-images.githubusercontent.com/47280551/71610252-16f87500-2b6e-11ea-87bc-35c52cf94391.png)
 
-<br>
 
-### 🔓 License
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+<!-- MARKDOWN LINKS & IMAGES -->
 
-MIT © [Erlan Lucio](https://www.linkedin.com/in/erlanlucio/)
