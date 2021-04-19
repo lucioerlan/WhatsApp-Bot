@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## 🤔 About The Project
 
-Endless images of good morning in a group of whatsapp!
+Good morning images, every day, in a whatsApp group!
 
 <br /> 
 <!-- ABOUT THE PROJECT -->
