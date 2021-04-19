@@ -1,21 +1,15 @@
 module.exports = {
+  Whatsapp: 'https://web.whatsapp.com',
 
-    whatsappLink: 'https://web.whatsapp.com',
+  Pinterest: 'https://br.pinterest.com/pin/125045327144834211',
 
-    clickGroup: 'span[title="Família Almeida"]',
+  Group: 'span[title="family almeida"]',
 
-    clickTextMessage: '._3F6QL._2WovP > div._2S1VP.copyable-text.selectable-text',
+  Attach: 'div[title="Anexar"]',
 
-    clickAttach: 'div[title="Anexar"]',
+  Image: 'input[type=file]',
 
-    uploadImage: 'input[type=file]',
+  Message: '._1JAUF._3to_-._3Foy4',
 
-    sendMessage: '._3F6QL.bsmJe._1ZxJu > div._2S1VP.copyable-text.selectable-text',
-
-    submitPinterest: 'div.Jea.XiG.gjz.mQ8.zI7.iyn.Hsu',
-
-    emailPinterest: 'input[id="email"]',
-
-    passwordPinterest: 'input[id="password"]',
-
+  Submit: 'span[data-testid="send"]',
 };
