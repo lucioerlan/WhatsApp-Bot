@@ -21,7 +21,7 @@ const { scrollTo } = require('../resources/scroll-to');
  */
 
 
-class BotService{
+class BotService {
   constructor() {
     this.counter = 0;
   }
