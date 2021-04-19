@@ -1,5 +1,6 @@
-/*  Run Services  */
+require('dotenv').config();
+const BotService = require('./service/bot-service');
 
-module.exports = require('./modules/downloadImages');
-module.exports = require('./modules/sendMessage');
+const botService = new BotService();
 
+botService.initialize();
