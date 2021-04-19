@@ -1,9 +1,9 @@
 {
-  "name": "whatsapp-good-morning",
+  "name": "WhatsApp-Bot",
+  "version": "1.0.0",
   "author": "Erlan Lucio",
-  "githubIssues": "",
-  "license": "MIT",
-  "main": "index.js",
+  "issues": "https://github.com/lucioerlan/WhatsApp-Bot/issues",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
@@ -11,15 +11,17 @@
     "lint": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
-    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
-    "node-cron": "^2.0.3",
-    "puppeteer": "^2.0.0"
+    "moment-timezone": "^0.5.33",
+    "puppeteer": "^8.0.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.9.0",
     "jest-puppeteer": "^4.4.0",
     "nodemon": "^1.19.4"
