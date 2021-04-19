@@ -17,7 +17,7 @@ const { scrollTo } = require('../resources/scroll-to');
  * @method initialize puppeteer configuration
  * @method image download images
  * @method link open whatsapp
- * @method send send image and message
+ * @method send image and message
  */
 
 
