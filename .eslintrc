@@ -30,7 +30,6 @@
     "no-confusing-arrow": 0,
     "no-console": "off",
     "no-empty": "error",
-    "no-param-reassign": [2, { "props": false }],
     "no-multiple-empty-lines": "warn",
     "no-restricted-syntax": [
       "error",
@@ -40,6 +39,7 @@
     ],
     "no-return-assign": 0,
     "no-tabs": 0,
+    "no-use-before-define": 0,
     "no-undef": 0,
     "no-unused-vars": 1,
     "operator-linebreak": 0,

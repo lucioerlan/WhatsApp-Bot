@@ -1,29 +1,55 @@
 {
   "name": "WhatsApp-Bot",
-  "version": "1.0.0",
   "author": "Erlan Lucio",
-  "issues": "https://github.com/lucioerlan/WhatsApp-Bot/issues",
-  "main": "src/index.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged",
+      "pre-push": "cross-env CI=true npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint src --fix --ext .js",
+      "cross-env CI=true npm run test --findRelatedTests"
+    ]
+  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "test": "jest",
-    "lint": "eslint --fix --ext .js,.jsx ."
+    "lint": "eslint src --fix --ext .js",
+    "lint-staged": "lint-staged"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucioerlan/WhatsApp-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucioerlan/WhatsApp-Bot/issues"
+  },
+  "homepage": "https://github.com/lucioerlan/WhatsApp-Bot#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "dotenv": "^8.2.0",
-    "moment-timezone": "^0.5.33",
+    "node-cron": "^3.0.0",
     "puppeteer": "^8.0.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^4.0.10",
+    "lint-staged": "^10.0.0",
     "jest": "^24.9.0",
     "jest-puppeteer": "^4.4.0",
-    "nodemon": "^1.19.4"
+    "mock-fs": "^4.13.0",
+    "nodemon": "^1.19.4",
+    "sonarqube-scanner": "2.8.1"
   }
 }

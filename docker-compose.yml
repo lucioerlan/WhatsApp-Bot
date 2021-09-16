@@ -1,0 +1,19 @@
+version: "3"
+
+volumes:
+  node_data: {}
+
+services:
+  puppeteer:
+    build: .
+    image: samc621/headful-puppeteer-docker
+    container_name: puppeteer-chrome
+    environment:
+      - public/images
+      - HEADLESS=false
+      - NODE_ENV=development
+      - SCHEDULE_TIME=* * * * *
+    restart: on-failure
+    deploy:
+      restart_policy:
+        condition: on-failure

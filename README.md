@@ -1,12 +1,11 @@
-
 <!-- PROJECT SHIELDS -->
+
 [![PRETTIER](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://gitter.im/jlongster/prettie)
 [![LICENSE](https://img.shields.io/github/license/arshadkazmi42/awesome-github-init.svg)](https://github.com/arshadkazmi42/awesome-github-init/LICENSE)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/erlanlucio/)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flucioerlan%2FWhatsApp-Bot&count_bg=%23E71A18&title_bg=%23555555&icon=dependabot.svg&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
+
 <!-- PROJECT SHIELDS -->
-
-
 
 <!-- PROJECT -->
 <p align="center">
@@ -24,22 +23,23 @@
 </p>
 <!-- PROJECT -->
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## 🤔 About The Project
 
-Good morning images, every day, in a whatsApp group!
+Every day a new image, in my family WhatsApp group, to change the schedule time, go to the /index.js File.
 
-<br /> 
-<!-- ABOUT THE PROJECT -->
+If you have questions about creating schedules, see [Cron](https://crontab.cronhub.io/).
 
+<br />
 
+---
 
 <!-- INSTALLATION -->
+
 ## 🔨 Installation
 
-You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app.
+Você precisará do [Node.js](https://nodejs.org) versão 10 ou superior, instalado no seu computador para continuar.
 
 ```bash
 git clone https://github.com/lucioerlan/WhatsApp-Bot.git
@@ -49,46 +49,60 @@ $ npm install
 ```
 
 <br />
-<!-- INSTALLATION -->
 
-
+---
 
 <!-- SETUP -->
+
 ## 🔥 Setup
 
-```
-$ cp .env-examples .env 
+#### Copy or rename the file
 
 ```
+$ cp env-examples .env
+```
 
-<br /> 
-<!-- SETUP -->
+<br />
 
+---
 
 <!-- RUNNING TESTS -->
-## 🥇 Tests
+
+## 🤓 Running tests
+
+```
+$ npm run test
+```
+
+<br />
+
+---
+
+## 🎲 Running the application
+
 ```bash
-$ npm test 
+
+# Run the application
+$ npm run start
+
 ```
 
 <br />
-<!-- RUNNING TESTS -->
 
+---
 
+<!-- DOCKER -->
 
-<!-- RUNNING -->
-## 🚀 Running
+## 🐳 Or Run Docker
 
 ```
-$ npm start 
+$ docker-compose up
 ```
 
 <br />
-<!-- RUNNING -->
-
-
 
 <!-- LICENSE -->
+
 ## 🔓 License
 
 This project lives under MIT License. See LICENSE for more details. © - [Erlan Lucio](https://www.linkedin.com/in/erlanlucio/)
@@ -96,9 +110,8 @@ This project lives under MIT License. See LICENSE for more details. © - [Erlan 
 <br />
 <!-- LICENSE -->
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
@@ -112,5 +125,5 @@ This project lives under MIT License. See LICENSE for more details. © - [Erlan 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-<!-- MARKDOWN LINKS & IMAGES -->
 
+<!-- MARKDOWN LINKS & IMAGES -->

@@ -9,7 +9,7 @@ module.exports = {
 
   Image: 'input[type=file]',
 
-  Message: '._1JAUF._3to_-._3Foy4',
+  Message: '._2vbn4',
 
   Submit: 'span[data-testid="send"]',
 };
