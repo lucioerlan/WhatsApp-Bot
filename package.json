@@ -3,7 +3,18 @@
   "author": "Erlan Lucio",
   "version": "1.0.0",
   "main": "index.js",
-
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged",
+      "pre-push": "cross-env CI=true npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint src --fix --ext .js",
+      "cross-env CI=true npm run test --findRelatedTests"
+    ]
+  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
