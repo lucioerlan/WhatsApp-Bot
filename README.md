@@ -39,7 +39,7 @@ If you have questions about creating schedules, see [Cron](https://crontab.cronh
 
 ## 🔨 Installation
 
-Você precisará do [Node.js](https://nodejs.org) versão 10 ou superior, instalado no seu computador para continuar.
+You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app.
 
 ```bash
 git clone https://github.com/lucioerlan/WhatsApp-Bot.git
