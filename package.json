@@ -34,7 +34,7 @@
     "chalk": "^4.1.2",
     "dotenv": "^8.2.0",
     "node-cron": "^3.0.0",
-    "puppeteer": "^8.0.0",
+    "puppeteer": "^18.2.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
